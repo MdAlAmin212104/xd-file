@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Noto+Serif+Georgian&family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+body{
+    background-color: #FFFFFF;
+    
+}
+.header-section{
+    background-color: #9AAE7B;
+    height: 550px;
+}
+h1{
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 33px;
+    color: #000000;
+    padding: 10px 5px;
+
+}
+p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #FFFFFF;
+    
+}
+.navbar{
+    margin-bottom: 50px;
+}
+ul{
+    text-align: center;
+}
+ul li a{
+    color: #FFFFFF !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 17px !important;
+    padding: 0 20px;
+
+}
+
+.login-box{
+    background-color: #1A2A00;
+    border-radius: 25px;
+    width: 80px;
+    height: 32px;
+    margin: auto !important;
+    text-align: center;
+}
+.text-section .buy-now{
+    background-color: #1A2A00;
+    color: #FFFFFF;
+    font-weight: 200;
+    width: 177px;
+    height: 52px;
+    border-radius: 25px;
+    font-size: 20px;
+    border: none !important;
+
+}
+.text-section .btn-explore{
+    color: #FFFFFF;
+    font-weight: 200;
+    width: 157px;
+    height: 52px;
+    border-radius: 25px;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+
+}
+.text-section .btn-explore:hover{
+    color: #ffffff;
+    border-color: #ffffff;
+    
+}
+.banner-area{
+    margin-bottom: 100px;
+}
+.position-relative{
+    position: relative;
+}
+
+.images{
+    width: 272px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    left: 200px;
+    top: -5px;
+
+}
+.sofa{
+    width: 720px;
+    height: 396px;
+    position: absolute;
+    bottom: -300px;
+    left: 20px;
+}
+.lamp{
+    width: 81px;
+    height: 405px;
+    position: absolute;
+    right: 70px;
+    bottom: -200px;
+}
+.card-design{
+    margin-top: 150px ;
+    
+}
+.scroll{
+    color: #C2C2C2;
+    padding-left: 5px;
+}
+.scroll-button{
+    background-color: #9AAE7B;
+    width: 64px;
+    height: 64px;
+    border-radius: 50px;
+    margin: 0 auto;
+    border: none;
+    margin-top: 30px;
+}
+.card img{
+    width: 270px;
+    height: 220px;
+}
+.images-next{
+    width: 40px !important;
+    height: 30px !important;
+
+}
+.card{
+    width: 96% !important;
+    height: 400px !important;
+    padding-top: 10px;
+
+}
+.ProDetails p{
+    color: #000000;
+    font-size: 20px;
+}
+.ProDetails a{
+    color: #000000;
+    font-size: 25px;
+    text-decoration: none;
+}
+.card:hover{
+    background-color: #F2F2F2;
+}
+
+
+
+
+
+@media only screen and (max-width:768px){
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    p{
+      word-spacing: 2px;  
+        
+    }
+    .position-relative{
+        position: relative;
+    }
+    
+    .images{
+        position: absolute;
+        top: -160px;
+        width: 210px;
+        height: 146px;
+        left: 80px;
+        
+    
+    }
+    .sofa{
+        position: absolute;
+        width: 310px;
+        height: 172px;
+        bottom: -170px !important;
+        
+    }
+    .lamp{
+        position: absolute;
+        width: 27px;
+        height: 131px;
+        right: 45px;
+        top: -10px;
+    }
+    
+    .button{
+        position: relative;
+        top: 300px;
+        
+
+    }
+    .text-section .buy-now{
+        width: 100% !important;
+        margin-bottom: 30px;
+    }
+    .text-section .btn-explore{
+        width: 100%;
+        margin:0 auto;
+        border: 2px solid #C8C8C8;
+        color: #CBCBCB;
+        text-align: center;
+        
+    
+    }
+    .text-section .btn-explore:hover{
+        border: 2px solid #C8C8C8;
+        color: #CBCBCB;
+    }
+    .card-design{
+        margin-top: 300px ;
+    }
+    .card{
+        margin: 10px 0 !important;
+    }
+    .card img{
+        margin: 0 auto;
+    }
+
+    
+    
+}
